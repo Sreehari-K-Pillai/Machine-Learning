@@ -19,4 +19,4 @@ beta1=(r*y.std())/x.std()
 beta0=y.mean()-(beta1*x.mean())
 m=float(input(""))
 y=(beta1*m)+beta0
-print("%.2f" %y)
+print("%d" %y)
